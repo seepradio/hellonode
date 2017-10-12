@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - cookie-session > debug:
+        patched: '2017-10-12T17:09:00.652Z'
+    - cloudant > debug:
+        patched: '2017-10-12T17:09:00.652Z'
+    - swagger-express-mw > swagger-node-runner > swagger-tools > body-parser > debug:
+        patched: '2017-10-12T17:09:00.652Z'
+  'npm:hawk:20160119':
+    - follow > request > hawk:
+        patched: '2017-10-12T17:09:00.652Z'
+  'npm:ms:20170412':
+    - cloudant > debug > ms:
+        patched: '2017-10-12T17:09:00.652Z'
+    - swagger-express-mw > swagger-node-runner > swagger-tools > body-parser > debug > ms:
+        patched: '2017-10-12T17:09:00.652Z'
+  'npm:request:20160119':
+    - follow > request:
+        patched: '2017-10-12T17:09:00.652Z'
