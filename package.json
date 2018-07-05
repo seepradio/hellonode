@@ -41,7 +41,8 @@
     "swagger-ui-express": "^2.0.8",
     "url": "^0.11.0",
     "uuid": "^3.0.1",
-    "winston": "^2.3.1"
+    "winston": "^2.3.1",
+    "snyk": "^1.88.1"
   },
   "devDependencies": {
     "async": "^2.2.0",
@@ -60,5 +61,10 @@
     "child_process": "^1.0.2",
     "sleep": "^5.1.1",
     "uuid": "^3.0.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
