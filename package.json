@@ -23,7 +23,7 @@
     "cookie-session": "*",
     "express": "^4.15.2",
     "fabric-ca-client": "1.0.1",
-    "fabric-client": "1.0.1",
+    "fabric-client": "1.0.2",
     "follow": "^1.0.0",
     "fs": "0.0.1-security",
     "helmet": "^3.8.1",
