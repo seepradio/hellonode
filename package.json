@@ -32,7 +32,7 @@
     "jsonwebtoken": "^7.3.0",
     "log4js": "^1.1.1",
     "nano": "^6.2.0",
-    "node-jose": "^0.9.5",
+    "node-jose": "^2.1.0",
     "passport": "^0.3.2",
     "passport-idaas-openidconnect": "^2.0.1",
     "read-config": "^2.0.0",
