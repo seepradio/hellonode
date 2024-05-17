@@ -37,7 +37,7 @@
     "passport-idaas-openidconnect": "^2.0.1",
     "read-config": "^2.0.0",
     "swagger-express-mw": "^0.1.0",
-    "swagger-jsdoc": "^1.9.7",
+    "swagger-jsdoc": "^3.0.0",
     "swagger-ui-express": "^2.0.8",
     "url": "^0.11.0",
     "uuid": "^3.0.1",
